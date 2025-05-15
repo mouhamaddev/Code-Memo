@@ -16,6 +16,7 @@ Welcome to my [Code Memo](https://mouhamaddev.github.io/Code-Memo/)! I forget a 
 8. [Linux](/linux.md)
 9. [Misc](/misc.md)
 10. [Interview Preparation](/interviews.md)
+11. [Today I Learned - DAF](https://github.com/mouhamaddev/django-async-framework/tree/main/TIL)
 
 Note: This project is a bunch of personal notes. While you may find them useful, it's intended more as a quick reference rather than a learning resource, ideal for a brief review 5 minutes before your next interview :D
 
