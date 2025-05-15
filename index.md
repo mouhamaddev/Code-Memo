@@ -7,18 +7,15 @@ Welcome to my [Code Memo](https://mouhamaddev.github.io/Code-Memo/)! I forget a 
 ## Table of Contents
 
 1. [Python](/python.md)
-2. [Django and Django REST Framework (DRF)](/django.md)
-3. [Data Structures and Algorithms](/dsa.md)
+2. [Data Structures and Algorithms](/dsa.md)
+3. [Django and Django REST Framework (DRF)](/django.md)
 4. [Software Engineering Principles](/sep.md)
-5. [DevOps and Deployment](/devops.md)
-6. [System Design and Architecture ⏳](/system-design.md)
-7. [API Design ⏳](/api-design.md)
-8. [Database Management ⏳](/db-management.md)
-9. [Basics of Data Science and Machine Learning ⏳](/ds-and-ml.md)
-10. [Basics of Server Administration ⏳](/ds-and-ml.md)
-11. [Linux](/linux.md)
-12. [Misc](/misc.md)
-13. [Interview Preparation ⏳](/interviews.md)
+5. System Design and Architecture ⏳
+6. API Design ⏳
+7. [DevOps and Deployment](/devops.md)
+8. [Linux](/linux.md)
+9. [Misc](/misc.md)
+10. [Interview Preparation](/interviews.md)
 
 <p>
   <a href="#" onclick="randomPage();" style="text-decoration:none;">
@@ -37,7 +34,7 @@ Welcome to my [Code Memo](https://mouhamaddev.github.io/Code-Memo/)! I forget a 
       if (data.pages.length > 0) {
         let randomPage = data.pages[Math.floor(Math.random() * data.pages.length)];
         
-        randomPage = randomPage.replace(/\.md$/, '') + '.html';
+        randomPage = randomPage.replace(/\.md$/, '');
 
         window.location.href = randomPage;
       } else {
@@ -57,7 +54,4 @@ Feel free to explore each section and make use of the information as needed. If 
 
 And don't forget to take notes! ❤️
 
-Version: 2.3.3
-
-<a href="https://www.hitwebcounter.com" target="_blank">
-<img src="https://hitwebcounter.com/counter/counter.php?page=19162042&style=0007&nbdigits=5&type=ip&initCount=25" title="Counter Widget" Alt="Visit counter For Websites"   border="0" /></a>
+Version: 3.0.1
