@@ -37,7 +37,7 @@ Welcome to my [Code Memo](https://mouhamaddev.github.io/Code-Memo/)! I forget a 
       if (data.pages.length > 0) {
         let randomPage = data.pages[Math.floor(Math.random() * data.pages.length)];
         
-        randomPage = randomPage.replace(/\.md$/, '') + '.html';
+        randomPage = randomPage.replace(/\.md$/, '');
 
         window.location.href = randomPage;
       } else {
