@@ -1,6 +1,6 @@
 ### Strings
 
-A string is a **sequence of characters** enclosed in quotes. In Python, strings are **immutable**, meaning once created, they cannot be changed. Strings support indexing, slicing, and a rich set of built-in methods for manipulation and analysis.
+A string is a **sequence of characters** enclosed in quotes. In Python, strings are **immutable**, meaning once created, they cannot be changed. Strings support indexing, slicing, and a rich set of built-in methods for manipulation.
 
 #### Initialization
 

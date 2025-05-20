@@ -7,17 +7,6 @@ An array is a linear data structure that stores elements in contiguous memory lo
 1. **Static Array**: Fixed-size arrays using `array` module or third-party packages like NumPy.
 2. **Dynamic Array**: Python’s built-in `list` type, which resizes automatically.
 
-#### Initialization
-
-```python
-# Static-like (using array module)
-import array
-arr = array.array('i', [1, 2, 3])  # 'i' for integers
-
-# Dynamic (Python list)
-arr = [1, 2, 3]
-```
-
 #### Basic Operations
 
 **1. Insertion**
@@ -89,13 +78,6 @@ def linear_search(arr, target):
         if arr[i] == target:
             return i
     return -1
-```
-
-* **Binary Search** (requires sorted array)
-
-```python
-import bisect
-index = bisect.bisect_left(arr, target)  # Fast binary search
 ```
 
 **7. Slicing**
