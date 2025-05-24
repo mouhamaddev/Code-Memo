@@ -16,7 +16,7 @@ Welcome to my [Code Memo](https://mouhamaddev.github.io/Code-Memo/)! I forget a 
 8. [Linux](/linux.md)
 9. [Misc](/misc.md)
 10. [Interview Preparation](/interviews.md)
-11. [Today I Learned - DAF 🔥](https://github.com/mouhamaddev/django-async-framework/tree/today-i-learned/TIL)
+11. [Today I Learned - DAF 🔥](/daf-today-i-learned.md)
 
 <p>
   <a href="#" onclick="randomPage();" style="text-decoration:none;">
@@ -55,4 +55,4 @@ Feel free to explore each section and make use of the information as needed. If 
 
 And don't forget to take notes! ❤️
 
-Version: 3.0.2
+Version: 3.1.0
