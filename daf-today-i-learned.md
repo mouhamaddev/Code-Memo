@@ -87,3 +87,9 @@ Today I Learned:
 - Async runs in a single thread using an event loop.
 - CPUs with multiple cores can truly do tasks in parallel, threads switch between tasks.
 - Async is concurrency, not true thread based parallelism.
+
+
+Date: 26-5-2025
+
+Today I Learned:
+- That after creating my first AsyncView that requires developers to write async coroutines, I thought about an alternative approach: instead of forcing async usage, I’d automatically convert a regular handler into a coroutine by extending AsyncView. However, after testing it hands-on, it turned out that this approach isn’t ideal / safe because it still executes blocking code, defeating the whole purpose of async.
