@@ -1,6 +1,11 @@
 ## Django Async Framework
 
-DAF is a modern asynchronous framework built on top of Django, designed to support fully async class-based views, async-safe ORM operations, background tasks, async error handling, rate limiting, and more, all aimed at making Django better suited for high-concurrency APIs.
+
+Welcome to the lightweight, fully asynchronous class-based view framework built on top of Django.
+
+<br>
+
+Django Async Framework is a minimalistic framework designed to bring true async support to Django’s class-based views. It enforces the use of `async def` HTTP method handlers, enabling developers to write modern, non-blocking web APIs and services using Django.
 
 <p>
   <a href="https://github.com/mouhamaddev/django-async-framework" style="text-decoration:none;">
@@ -21,8 +26,6 @@ DAF is a modern asynchronous framework built on top of Django, designed to suppo
 <br>
 
 *Below are some notes I add whenever I learn something new during the development process:*
-
-<br>
 
 Date: 15-5-2025
 
@@ -93,3 +96,10 @@ Date: 26-5-2025
 
 Today I Learned:
 - That after creating my first AsyncView that requires developers to write async coroutines, I thought about an alternative approach: instead of forcing async usage, I’d automatically convert a regular handler into a coroutine by extending AsyncView. However, after testing it hands-on, it turned out that this approach isn’t ideal / safe because it still executes blocking code, defeating the whole purpose of async.
+
+
+Date: 27-5-2025
+
+Today I Learned:
+- asgiref.sync.sync_to_async allows wraping a blocking function to be called from an async context, the default settings is thread_sensitive=True which runs on a shared dedicated thread.
+- When async code interacts with blocking sync code it needs threads to stay non-blocking.

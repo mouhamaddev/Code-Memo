@@ -5,7 +5,7 @@
 ### Principles and Best Practices
 
 1. [SOLID Principles](/sep/solid.md)
-2. [DRY Principle (Don't Repeat Yourself)](/sep/dry-principle.md)
+2. [DRY Principle](/sep/dry-principle.md)
 3. [KISS Principle](/sep/kiss-principle.md)
 4. [Debugging Best Practices](/sep/debugging.md)
 5. [Authentication and Authorization](/sep/authentication-and-authorization.md)
@@ -101,3 +101,70 @@
 - Critical Path Method (CPM)
 - Program Evaluation and Review Technique (PERT)
 - Capability Maturity Model Integration (CMMI)
+
+<i>Personal Note: Might remove this section</i>
+
+### Practical Code Principles ⏳
+##### Code Quality & Maintainability
+
+1. Single Responsibility Principle (SRP)
+2. Don’t Repeat Yourself (DRY)
+3. Keep It Simple, Stupid (KISS)
+4. You Ain’t Gonna Need It (YAGNI)
+5. Code Smells & Refactoring
+
+##### Clean Architecture & Design
+
+6. Separation of Concerns
+7. Layered Architecture (MVC, Services, etc.)
+8. Dependency Injection (vs tight coupling)
+9. Avoiding God Objects and Mega Functions
+10. Designing for Testability
+
+##### Performance & Optimization
+
+11. Efficient Looping and Iteration
+12. Avoiding Unnecessary Database Queries
+13. Lazy vs Eager Evaluation
+14. Big-O Pitfalls
+15. Caching Principles in Practice
+
+##### Error Handling & Robustness
+
+16. Fail Fast and Clear Error Messages
+17. Proper Use of Try/Except or Try/Catch
+18. Graceful Fallbacks
+19. Defensive Programming
+20. Validations and Guards
+
+##### Database & Backend Principles
+
+21. ACID in Code (e.g., atomic DB transactions)
+22. Avoiding N+1 Queries
+23. Bulk vs Per-Row Operations
+24. Pagination vs Loading Everything
+25. Normalization vs Denormalization (Code Tradeoffs)
+
+##### Testing & Automation
+
+26. Testable Code Structure
+27. Mocking vs Real Dependencies
+28. Unit vs Integration Test Clarity
+29. Code Coverage Misconceptions
+30. Testing Edge Cases & Errors
+
+##### API & Interface Design
+
+31. Consistent Function Signatures
+32. Clear vs Ambiguous Naming
+33. Using Meaningful Defaults
+34. Versioning & Deprecation Warnings
+35. RESTful Practices in Code
+
+##### Frontend or Fullstack-Specific
+
+36. State Management Pitfalls (React, etc.)
+37. Component Overload vs Decomposition
+38. Avoiding Prop Drilling
+39. Clean Event Handling
+40. Form Validation Done Right

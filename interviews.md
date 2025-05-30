@@ -1,16 +1,13 @@
 ## Interview Preparation
 
-<i>Scariest thing ever.</i>
+<i>The Scariest Thing Ever :D</i>
 
-<br>
+Honestly I wasn’t planning to share these interview prep notes at first. I felt like it's something I’d keep to myself. But since Code-Memo already covers most of the stuff I’m specializing in, and interviews are a big part of that right now, I figured I’d add them here too, hoping they’ll help someone else on a similar journey.
 
-Interview questions might be the hardest and last part of securing a job.
-blah blah blah some intro things..
+## Technical Questions
 
-## Technical
+1. <i>Nothing to see here yet</i>
 
-1. something
+## Non-Technical Questions
 
-## Non-Technical
-
-1. something
+1. <i>Nothing to see here yet</i>
