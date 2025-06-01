@@ -133,6 +133,6 @@ The most effective approach to solving coding problems combines both problem-sol
 
 <br>
 
-## Time Complexity Quick Graphs
-![Time Complexity Quick Graphs](/dsa/0_rQTHEaoAX_OyqAL3.png)
-![Time Complexity Quick Graphs](/dsa/c950295.png)
+## Time Complexity Graphs
+![Time Complexity Graphs](/dsa/0_rQTHEaoAX_OyqAL3.png)
+![Time Complexity Graphs](/dsa/c950295.png)

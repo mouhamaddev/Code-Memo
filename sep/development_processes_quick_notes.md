@@ -149,7 +149,3 @@ Authorization determines what actions an authenticated user is allowed to perfor
 `502 Bad Gateway`: Server acting as proxy received invalid response from upstream.
 
 `503 Service Unavailable`: Server is overloaded or down for maintenance.
-
-<br>
-
-##### 
