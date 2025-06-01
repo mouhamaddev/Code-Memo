@@ -1,62 +1,22 @@
-# Software Engineering Principles
+### Software Engineering Principles
 
 [Writing Clean and Maintainable Code 🚀](/sep/clean-code.md)
+[Design Patterns: Elements of Reusable Object-Oriented Software 🚀](/sep/design-patterns.md)
+<br>
 
-### Principles and Best Practices
+##### Principles and Best Practices
 
 1. [SOLID Principles](/sep/solid.md)
 2. [DRY Principle](/sep/dry-principle.md)
 3. [KISS Principle](/sep/kiss-principle.md)
 4. [Debugging Best Practices](/sep/debugging.md)
-5. [Authentication and Authorization](/sep/authentication-and-authorization.md)
-6. [Software Engineering Ethics](/sep/ethics.md)
-7. [Software Licensing](/sep/licensing.md)
-8. [Professional Responsibility](/sep/responsibility.md)
 
-### Development Processes and Methodologies
+<br>
 
-1. [Software Development Life Cycle (SDLC)](/sep/sdlc.md)
-2. [SDLC Methodologies](/sep/sdlc-methodologies.md)
-3. [Agile Concept](/sep/agile-concept.md)
-4. [Jira Issue types](/sep/jira-issue-types.md)
-5. [Intellectual Property in Software](/sep/intellectual-property-in-software.md)
-6. [Domain-Driven Design (DDD)](/sep/ddd.md)
-7. [Test-Driven Development (TDD)](/sep/ttt.md)
-8. [Behavior-Driven Development (BDD)](/sep/bdd.md)
-9. [Continuous Integration/Continuous Deployment (CI/CD)](/sep/cicd.md)
-10. [Version Control (Git)](/sep/version-control.md)
-11. [Code Reviews](/sep/code-reviews.md)
-12. [Verification and Validation](/sep/verification-and-validation.md)
+##### Development Processes Quick Notes
 
-### Architectural Patterns and Design
+[Software Development Life Cycle (SDLC)](/sep/development_processes_quick_notes.md)
 
-1. [Architecture Styles](/sep/architecture-styles.md)
-2. [Design Patterns](/sep/design-patterns.md)
-3. [Microservices Architecture](/sep/microservices-architectures.md)
-4. [Monolithic vs. Microservices](/sep/monolithic-vs-microservices.md)
-5. [Serverless Architecture](/sep/serverless-architecture.md)
-6. [Client-Server Architecture](/sep/client-server-architecture.md)
-7. [Event-Driven Architecture](/sep/event-driven-architecture.md)
-8. [Component-Based Architecture](/sep/component-based-architecture.md)
-9. [Service-Oriented Architecture (SOA)](/sep/soa.md)
-10. [Model-View-Controller (MVC)](/sep/mvc.md)
-11. [Model-View-ViewModel (MVVM)](/sep/mvvm.md)
-
-### Software Development Tools and Practices
-
-1. [Naming Conventions](/sep/naming-conventions.md)
-2. [HTTP Methods](/sep/http-methods.md)
-3. [Server Codes](/sep/server-codes.md)
-4. [Versioning](/sep/versioning.md)
-5. [Release Management](/sep/release-management.md)
-6. [Task Tracking](/sep/task-tracking.md)
-7. [Project Management Tools](/sep/project-management.md)
-8. [Change Logs](/sep/change-logs.md)
-9. [Writing a README](/sep/writing-a-readme.md)
-10. [Conflict Resolution in Teams](/sep/conflict-resolution-in-teams.md)
-11. [Effective Communication in Teams](/sep/effective-communication-in-teams.md)
-12. [Leadership and Mentoring](/sep/leadership-and-mentoring.md)
-13. [Code Review and Rating](/sep/code-review-and-rating.md)
 
 ### Technologies and Infrastructure
 

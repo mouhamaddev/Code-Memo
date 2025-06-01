@@ -1,10 +1,10 @@
-## SOLID Principles
+### SOLID Principles
 
-### 1. Single Responsibility Principle (SRP)
+1. Single Responsibility Principle (SRP)
 
-**Definition**: A class should have only one reason to change, meaning it should have only one job or responsibility.
+Definition: A class should have only one reason to change, meaning it should have only one job or responsibility.
 
-**Wrong Code**:
+Wrong Code:
 
 ```python
 class Report:
@@ -24,7 +24,7 @@ class Report:
 # What's wrong: The Report class has two responsibilities: managing report data and saving the report to a file.
 ```
 
-**Correct Code**:
+Correct Code:
 
 ```python
 class Report:
@@ -48,11 +48,11 @@ class ReportSaver:
 # The Report class now has a single responsibility, while printing and saving are handled by separate classes.
 ```
 
-### 2. Open/Closed Principle (OCP)
+2. Open/Closed Principle (OCP)
 
-**Definition**: Software entities should be open for extension but closed for modification.
+Definition: Software entities should be open for extension but closed for modification.
 
-**Wrong Code**:
+Wrong Code:
 
 ```python
 class Shape:
@@ -68,7 +68,7 @@ class Shape:
 # What's wrong: Adding a new shape requires modifying the draw method.
 ```
 
-**Correct Code**:
+Correct Code:
 
 ```python
 class Shape:
@@ -86,11 +86,11 @@ class Square(Shape):
 # Adding a new shape can now be done by creating a new class without modifying existing code.
 ```
 
-### 3. Liskov Substitution Principle (LSP)
+3. Liskov Substitution Principle (LSP)
 
-**Definition**: Subtypes must be substitutable for their base types without altering the correctness of the program.
+Definition: Subtypes must be substitutable for their base types without altering the correctness of the program.
 
-**Wrong Code**:
+Wrong Code:
 
 ```python
 class Rectangle:
@@ -125,7 +125,7 @@ square.set_width(3)
 print(square.area())  # Output: 9, but expected 6 (since it should be a square)
 ```
 
-**Correct Code**:
+Correct Code:
 
 ```python
 class Shape:
@@ -155,11 +155,11 @@ square = Square(3)
 print(square.area())  # Output: 9
 ```
 
-### 4. Interface Segregation Principle (ISP)
+4. Interface Segregation Principle (ISP)
 
-**Definition**: Clients should not be forced to depend on interfaces they do not use.
+Definition: Clients should not be forced to depend on interfaces they do not use.
 
-**Wrong Code**:
+Wrong Code:
 
 ```python
 class Printer:
@@ -185,7 +185,7 @@ class OldPrinter(Printer):
 # What's wrong: OldPrinter is forced to implement methods it does not use.
 ```
 
-**Correct Code**:
+Correct Code:
 
 ```python
 class Printer:
@@ -207,11 +207,11 @@ class OldPrinter(Printer):
 # OldPrinter now only implements the print method, adhering to the interface segregation principle.
 ```
 
-### 5. Dependency Inversion Principle (DIP)
+5. Dependency Inversion Principle (DIP)
 
-**Definition**: High-level modules should not depend on low-level modules. Both should depend on abstractions.
+Definition: High-level modules should not depend on low-level modules. Both should depend on abstractions.
 
-**Wrong Code**:
+Wrong Code:
 
 ```python
 class FileLogger:
@@ -229,7 +229,7 @@ class Application:
 # What's wrong: Application is tightly coupled to FileLogger.
 ```
 
-**Correct Code**:
+Correct Code:
 
 ```python
 class Logger:

@@ -32,3 +32,4 @@
 30. [Codebase Standards](./misc/codebase-standards.md)
 31. [InsecureRequestWarning in Python](./misc/py-insecurerequirestwarning.md)
 32. [Raise error form of response in DRF](./misc/response-error-drf.md)
+33. [README Template](./misc/readme-template.md)

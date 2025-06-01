@@ -1,54 +1,3 @@
-### Writing a README
-
-A well-structured README typically includes the following sections:
-
-1. **Project Title:**
-
-   - The name of the project, often displayed at the top of the README, should be clear and descriptive.
-
-2. **Project Description:**
-
-   - A brief overview of what the project does, why it exists, and its main features. This section should give readers a quick understanding of the project’s purpose and goals.
-
-3. **Table of Contents:**
-
-   - For longer README files, a table of contents helps users quickly navigate to different sections.
-
-4. **Installation:**
-
-   - Step-by-step instructions on how to install and set up the project. This might include information on system requirements, dependencies, and any necessary configuration. Be sure to cover both local setup and, if applicable, deployment instructions.
-
-5. **Usage:**
-
-   - Detailed instructions on how to use the project once it’s set up. This section might include code snippets, examples, and screenshots to illustrate typical use cases.
-
-6. **Features:**
-
-   - A summary of the key features of the project. Highlight what makes your project unique or particularly useful.
-
-7. **Contributing:**
-
-   - Guidelines for contributing to the project. This section might include information on how to fork the repository, create pull requests, report issues, and follow coding standards. It encourages community involvement and makes it clear how others can help improve the project.
-
-8. **License:**
-
-   - Specify the license under which the project is distributed. This is crucial for open-source projects, as it defines the legal terms under which the software can be used, modified, and shared.
-
-9. **Acknowledgments:**
-
-   - A place to give credit to any contributors, libraries, or tools that were instrumental in the creation of the project.
-
-10. **Contact Information:**
-
-    - Provide ways to get in touch with the maintainers, whether through email, social media, or issue trackers.
-
-11. **Badges:**
-    - Add badges (e.g., build status, coverage, license, etc.) to the top of the README for quick information. Badges can enhance the visual appeal and provide useful at-a-glance information.
-
-#### [README Template:](https://github.com/othneildrew/Best-README-Template)
-
----
-
 <!-- Improved compatibility of back to top link: See: https://github.com/othneildrew/Best-README-Template/pull/73 -->
 
 <a id="readme-top"></a>
@@ -218,7 +167,7 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 
 - [x] Add Changelog
 - [x] Add back to top links
-- [ ] Add Additional Templates w/ Examples
+- [x] Add Additional Templates w/ Examples
 - [ ] Add "components" document to easily copy & paste sections of the readme
 - [ ] Multi-language Support
   - [ ] Chinese
