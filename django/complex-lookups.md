@@ -58,16 +58,16 @@ books_by_john = Book.objects.filter(author__name='John')
 
 Aggregation functions can be combined with complex lookups to perform calculations on subsets of data.
 
-Suppose you have an `Order` model with a foreign key to a `Customer` model and you want to calculate the total value of orders for customers from 'New York':
+Suppose you have an `Order` model with a foreign key to a `Customer` model and you want to calculate the total value of orders for customers from 'Beirut':
 
 ```python
 from django.db.models import Sum
 
-# Calculate total order value for customers from New York
-total_value = Order.objects.filter(customer__city='New York').aggregate(Sum('total_amount'))
+# Calculate total order value for customers from Beirut
+total_value = Order.objects.filter(customer__city='Beirut').aggregate(Sum('total_amount'))
 ```
 
-- `customer__city='New York'` filters orders based on the customer's city.
+- `customer__city='Beirut'` filters orders based on the customer's city.
 - `aggregate(Sum('total_amount'))` calculates the total value of the filtered orders.
 
 #### Combining Multiple Complex Lookups

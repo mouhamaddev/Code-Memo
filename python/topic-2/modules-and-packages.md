@@ -2,7 +2,7 @@
 
 #### Modules
 
-**Modules** in Python are files containing Python code. They allow you to organize code into files for better maintainability, reusability, and to avoid namespace collisions.
+**Modules** are files containing Python code. They allow you to organize code into files for better maintainability, reusability, and to avoid namespace collisions.
 
 - **Creating a Module**: To create a module, simply save Python code in a `.py` file.
 

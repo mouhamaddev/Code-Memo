@@ -2,7 +2,7 @@
 
 #### Writing Idiomatic Python Code (PEP 8 Guidelines)
 
-**PEP 8** is the style guide for Python code. Following PEP 8 guidelines helps ensure consistency and readability in Python codebases.
+**PEP 8** is the style guide for Python code. Following PEP 8 guidelines helps ensure consistency and readability in the codebases.
 
 - **Naming Conventions**:
 
@@ -85,7 +85,7 @@ squares = list(squares_gen)
 
 #### Leveraging Python’s `@property` Decorator for Attribute Access Control
 
-The **`@property` decorator** in Python allows you to define methods that behave like attributes, providing controlled access to instance variables. This is useful for encapsulation and validation.
+The **`@property` decorator** allows you to define methods that behave like attributes, providing controlled access to instance variables. This is useful for encapsulation and validation.
 
 - **Basic Usage**:
   - Use `@property` to define a getter method.
@@ -125,10 +125,10 @@ class Person:
         del self._age
 
 # Usage:
-person = Person("Alice", 30)
-print(person.name)  # Output: Alice
-person.age = 35
-print(person.age)   # Output: 35
+person = Person("Ort", 21)
+print(person.name)  # Output: Ort
+person.age = 25
+print(person.age)   # Output: 25
 del person.age
 ```
 

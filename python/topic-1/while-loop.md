@@ -31,7 +31,7 @@ while i < 5:
 
 #### While Loop Techniques
 
-- **Combining with else**: The `else` block after a `while` loop executes when the loop condition becomes false.
+- **Else**: The `else` block after a `while` loop executes when the loop condition becomes false.
 
   ```python
   i = 0
@@ -42,7 +42,7 @@ while i < 5:
       print("Loop ended")
   ```
 
-- **Simulating Do-While Loop**: Python doesn't have a do-while loop, but you can simulate it.
+- **Do-While Loop**: Python doesn't have a do-while loop, but we can simulate it.
 
   ```python
   while True:

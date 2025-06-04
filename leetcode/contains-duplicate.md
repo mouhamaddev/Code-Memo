@@ -26,8 +26,6 @@ class Solution(object):
         return False  # If no duplicates are found, return False
 ```
 
-### Explanation:
-
 - **Time Complexity**: O(n)
 - **Space Complexity**: O(n)
 

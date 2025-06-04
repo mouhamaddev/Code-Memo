@@ -2,7 +2,7 @@
 
 An array is a linear data structure that stores elements in contiguous memory locations. It allows **random access** to elements using an index. Arrays are fixed in size (in low-level languages), but Python’s lists provide dynamic resizing.
 
-#### Types of Arrays (in Python)
+#### Types of Arrays
 
 1. **Static Array**: Fixed-size arrays using `array` module or third-party packages like NumPy.
 2. **Dynamic Array**: Python’s built-in `list` type, which resizes automatically.
@@ -11,19 +11,19 @@ An array is a linear data structure that stores elements in contiguous memory lo
 
 **1. Insertion**
 
-* **At the Beginning**
+- **At the Beginning**
 
 ```python
 arr.insert(0, 10)  # Insert 10 at index 0
 ```
 
-* **At the End**
+- **At the End**
 
 ```python
 arr.append(20)  # Append 20 to the end
 ```
 
-* **At Any Position**
+- **At Any Position**
 
 ```python
 arr.insert(2, 15)  # Insert 15 at index 2
@@ -31,19 +31,19 @@ arr.insert(2, 15)  # Insert 15 at index 2
 
 **2. Deletion**
 
-* **From the Beginning**
+- **From the Beginning**
 
 ```python
 arr.pop(0)  # Remove element at index 0
 ```
 
-* **From the End**
+- **From the End**
 
 ```python
 arr.pop()  # Removes and returns the last element
 ```
 
-* **Specific Value**
+- **Specific Value**
 
 ```python
 arr.remove(15)  # Removes the first occurrence of 15
@@ -70,7 +70,7 @@ for item in arr:
 
 **6. Searching**
 
-* **Linear Search**
+- **Linear Search**
 
 ```python
 def linear_search(arr, target):

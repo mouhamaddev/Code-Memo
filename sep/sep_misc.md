@@ -5,6 +5,7 @@
 ##### SDLC
 
 The Software Development Life Cycle, or SDLC, is a structured process used to design, develop, test, and deploy software systems. SDLC includes a series of steps and phases:
+
 - Requirement Analysis
 - System Design
 - Implementation (Coding)
@@ -14,28 +15,28 @@ The Software Development Life Cycle, or SDLC, is a structured process used to de
 
 SDLC Methodologies:
 
-* Waterfall: A linear and sequential approach where each phase must be completed before the next begins. Works best for well-defined, unchanging requirements.
+- Waterfall: A linear and sequential approach where each phase must be completed before the next begins. Works best for well-defined, unchanging requirements.
 
-* Agile: An iterative and flexible approach that delivers small, working software increments regularly.
+- Agile: An iterative and flexible approach that delivers small, working software increments regularly.
 
-* Scrum: A type of Agile methodology that organizes work into sprints (usually 2–4 weeks), involves roles like Scrum Master and Product Owner with regular stand-up meetings.
+- Scrum: A type of Agile methodology that organizes work into sprints (usually 2–4 weeks), involves roles like Scrum Master and Product Owner with regular stand-up meetings.
 
-* Kanban: Focuses on continuous delivery and visual task tracking using boards and cards.
+- Kanban: Focuses on continuous delivery and visual task tracking using boards and cards.
 
-* Spiral: Combines iterative development with risk assessment.
+- Spiral: Combines iterative development with risk assessment.
 
-* V-Model (Validation & Verification): An extension of Waterfall where each development phase has a corresponding testing phase, emphasizes early test planning and strict discipline.
+- V-Model (Validation & Verification): An extension of Waterfall where each development phase has a corresponding testing phase, emphasizes early test planning and strict discipline.
 
 <br>
 
 ##### Issue Types in Jira:
 
-* Epic: Large feature or goal split into stories; spans multiple sprints.
-* Story: User-focused functionality; completed in one sprint.
-* Task: Specific work item, often part of a story or epic.
-* Sub-task: Smaller unit of a task; used for detailed breakdown.
-* Bug: Issue to be fixed.
-* Spike: Research task to resolve uncertainty.
+- Epic: Large feature or goal split into stories; spans multiple sprints.
+- Story: User-focused functionality; completed in one sprint.
+- Task: Specific work item, often part of a story or epic.
+- Sub-task: Smaller unit of a task; used for detailed breakdown.
+- Bug: Issue to be fixed.
+- Spike: Research task to resolve uncertainty.
 
 <br>
 
@@ -62,6 +63,7 @@ SDLC Methodologies:
 ##### Authentication and Authorization
 
 Authentication is the process of verifying the identity of a user or system. Authentication Methods:
+
 - Username + Password
 - MFA (Multi-Factor Authentication) (e.g., SMS, authentication app).
 - OAuth2: An open standard for token-based authentication that allows third-party applications to access user data without exposing credentials, example: “Continue with Google” button.
@@ -70,6 +72,7 @@ Authentication is the process of verifying the identity of a user or system. Aut
 <br>
 
 Authorization determines what actions an authenticated user is allowed to perform. Authorization Methods:
+
 1. Role-Based Access Control (RBAC).
 2. Attribute-Based Access Control (ABAC) (e.g, Policies and Attributes)
 3. Access Control Lists (ACLs)
@@ -78,13 +81,13 @@ Authorization determines what actions an authenticated user is allowed to perfor
 
 ##### Architecture Styles
 
-* Monolithic Architecture: A single unified application where all parts are tightly connected, simple to build and deploy but hard to scale or update parts independently.
+- Monolithic Architecture: A single unified application where all parts are tightly connected, simple to build and deploy but hard to scale or update parts independently.
 
-* Microservices Architecture: Breaks app into small independent services that communicate over APIs.
+- Microservices Architecture: Breaks app into small independent services that communicate over APIs.
 
-* Event-Driven Architecture: Components communicate asynchronously by sending and reacting to events.
+- Event-Driven Architecture: Components communicate asynchronously by sending and reacting to events.
 
-* Service-Oriented Architecture: Uses reusable services connected by standardized protocols, supports complex business workflows and integration.
+- Service-Oriented Architecture: Uses reusable services connected by standardized protocols, supports complex business workflows and integration.
 
 <br>
 
@@ -100,13 +103,13 @@ Authorization determines what actions an authenticated user is allowed to perfor
 
 ##### HTTP Methods
 
-* `GET`: Retrieves data from the server (no modifications).
-* `POST`: Creates a new resource.
-* `PUT`: Replaces or creates a resource.
-* `DELETE`: Removes a resource.
-* `PATCH`: Applies partial updates to a resource.
-* `OPTIONS`: Returns the HTTP methods and communication options supported by a resource.
-* `HEAD`: Retrieves only the headers of a resource without the body, used for metadata checks.
+- `GET`: Retrieves data from the server (no modifications).
+- `POST`: Creates a new resource.
+- `PUT`: Replaces or creates a resource.
+- `DELETE`: Removes a resource.
+- `PATCH`: Applies partial updates to a resource.
+- `OPTIONS`: Returns the HTTP methods and communication options supported by a resource.
+- `HEAD`: Retrieves only the headers of a resource without the body, used for metadata checks.
 
 <br>
 
@@ -149,3 +152,9 @@ Authorization determines what actions an authenticated user is allowed to perfor
 `502 Bad Gateway`: Server acting as proxy received invalid response from upstream.
 
 `503 Service Unavailable`: Server is overloaded or down for maintenance.
+
+<br>
+
+##### HTTP vs HTTPS
+
+HTTP is the HyperText Transfer Protocol used for unsecured communication over the web, while HTTPS is HTTP Secure which adds encryption via TLS/SSL to ensure data confidentiality, integrity, and authentication between client and server.

@@ -34,8 +34,6 @@ urlpatterns = [
 ]
 ```
 
-In this example:
-
 - `path('', views.index, name='index')`: Maps the root URL (`''`) to the `index` view.
 - `path('about/', views.about, name='about')`: Maps the `about/` URL to the `about` view.
 

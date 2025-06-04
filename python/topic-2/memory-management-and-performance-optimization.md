@@ -1,6 +1,6 @@
 ### Memory Management and Performance Optimization
 
-#### Garbage Collection in Python
+#### Garbage Collection
 
 Python uses automatic memory management via garbage collection to reclaim memory occupied by objects that are no longer in use, freeing resources for reuse.
 
@@ -26,7 +26,7 @@ gc.disable()
 Memory profiling helps identify memory-intensive parts of your code, memory leaks, and areas for optimization.
 
 - **Using `memory_profiler`**:
-  - The `memory_profiler` package allows you to profile memory usage line by line in Python programs.
+  - The `memory_profiler` package allows you to profile memory usage line by line programs.
 
 ```bash
 pip install memory_profiler

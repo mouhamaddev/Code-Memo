@@ -3,7 +3,7 @@
 A **HashSet** is a data structure that stores **unique elements only** and offers **O(1)** average time complexity for insertion, deletion, and lookup.
 It’s backed by a **hash table** just like a Hashmap, but only stores **keys**, no values.
 
-In Python, it's implemented using the built-in `set` type.
+It's implemented using the built-in `set` type.
 
 ### Initialization
 
@@ -89,11 +89,11 @@ a ^ b      # {1, 2, 4, 5}
 
 ### Use Cases
 
-* Removing duplicates
-* Checking membership fast
-* Performing math set operations
-* Solving problems like:
+- Removing duplicates
+- Checking membership fast
+- Performing math set operations
+- Solving problems like:
 
-  * "Contains Duplicate"
-  * "Intersection of Two Arrays"
-  * "First Missing Positive"
+  - "Contains Duplicate"
+  - "Intersection of Two Arrays"
+  - "First Missing Positive"

@@ -1,18 +1,18 @@
-### Writing and Running Tests  
+### Writing and Running Tests
 
-#### 1. Introduction to Testing in Django  
+#### 1. Introduction to Testing in Django
 
-Django comes with a built-in testing framework based on **Python’s `unittest` module**. Tests help verify that code works as expected and prevent regressions when making changes.  
+Django comes with a built-in testing framework based on **Python’s `unittest` module**. Tests help verify that code works as expected and prevent regressions when making changes.
 
-Tests are written inside a Django app, typically in `tests.py`, or within a dedicated `tests/` directory.  
+Tests are written inside a Django app, typically in `tests.py`, or within a dedicated `tests/` directory.
 
 ---
 
-#### 2. Setting Up Tests  
+#### 2. Setting Up Tests
 
-By default, Django creates a test database before running tests. This ensures tests don’t affect the production database.  
+By default, Django creates a test database before running tests. This ensures tests don’t affect the production database.
 
-To create tests, import Django’s `TestCase` class:  
+To create tests, import Django’s `TestCase` class:
 
 ```python
 from django.test import TestCase
@@ -33,33 +33,33 @@ class ItemTestCase(TestCase):
 
 ---
 
-#### 3. Running Tests  
+#### 3. Running Tests
 
-Run all tests using:  
+Run all tests using:
 
 ```bash
 python manage.py test
 ```
 
-Run tests for a specific app:  
+Run tests for a specific app:
 
 ```bash
 python manage.py test myapp
 ```
 
-Run a specific test case:  
+Run a specific test case:
 
 ```bash
 python manage.py test myapp.tests.ItemTestCase
 ```
 
-Run a specific test method:  
+Run a specific test method:
 
 ```bash
 python manage.py test myapp.tests.ItemTestCase.test_item_names
 ```
 
-To see detailed output, use the `-v` flag:  
+To see detailed output, use the `-v` flag:
 
 ```bash
 python manage.py test -v 2
@@ -67,13 +67,13 @@ python manage.py test -v 2
 
 ---
 
-#### 4. Writing Test Cases  
+#### 4. Writing Test Cases
 
-Django provides `TestCase`, `SimpleTestCase`, `TransactionTestCase`, and `LiveServerTestCase` for different testing needs.  
+Django provides `TestCase`, `SimpleTestCase`, `TransactionTestCase`, and `LiveServerTestCase` for different testing needs.
 
-##### a) Model Tests  
+##### a) Model Tests
 
-Testing models ensures database interactions work correctly.  
+Testing models ensures database interactions work correctly.
 
 ```python
 from django.test import TestCase
@@ -92,9 +92,9 @@ class ProductModelTest(TestCase):
         self.assertEqual(self.product.price, 50)
 ```
 
-##### b) View Tests  
+##### b) View Tests
 
-Testing views ensures that URLs return the expected responses.  
+Testing views ensures that URLs return the expected responses.
 
 ```python
 from django.test import TestCase
@@ -116,9 +116,9 @@ class ProductViewTest(TestCase):
         self.assertContains(response, "Mouse")
 ```
 
-##### c) Form Tests  
+##### c) Form Tests
 
-Testing forms ensures validation and processing work as expected.  
+Testing forms ensures validation and processing work as expected.
 
 ```python
 from django.test import TestCase
@@ -136,19 +136,19 @@ class ProductFormTest(TestCase):
 
 ---
 
-#### 5. Using Assertions  
+#### 5. Using Assertions
 
-Django’s `TestCase` includes many useful assertions:  
+Django’s `TestCase` includes many useful assertions:
 
-- `assertEqual(a, b)`: Check if `a == b`.  
-- `assertNotEqual(a, b)`: Check if `a != b`.  
-- `assertTrue(x)`: Check if `x is True`.  
-- `assertFalse(x)`: Check if `x is False`.  
-- `assertIsNone(x)`: Check if `x is None`.  
-- `assertContains(response, text)`: Check if `text` is in response content.  
-- `assertRedirects(response, url)`: Check if a view redirects correctly.  
+- `assertEqual(a, b)`: Check if `a == b`.
+- `assertNotEqual(a, b)`: Check if `a != b`.
+- `assertTrue(x)`: Check if `x is True`.
+- `assertFalse(x)`: Check if `x is False`.
+- `assertIsNone(x)`: Check if `x is None`.
+- `assertContains(response, text)`: Check if `text` is in response content.
+- `assertRedirects(response, url)`: Check if a view redirects correctly.
 
-Example:  
+Example:
 
 ```python
 def test_product_price(self):
@@ -158,9 +158,9 @@ def test_product_price(self):
 
 ---
 
-#### 6. Using `setUpTestData`  
+#### 6. Using `setUpTestData`
 
-For performance improvements, use `setUpTestData()` instead of `setUp()`. It runs only once per test class instead of before every test method.  
+For performance improvements, use `setUpTestData()` instead of `setUp()`. It runs only once per test class instead of before every test method.
 
 ```python
 class ProductTestCase(TestCase):
@@ -174,9 +174,9 @@ class ProductTestCase(TestCase):
 
 ---
 
-#### 7. Skipping Tests  
+#### 7. Skipping Tests
 
-Sometimes, tests need to be skipped. Use `@unittest.skip` decorators:  
+Sometimes, tests need to be skipped. Use `@unittest.skip` decorators:
 
 ```python
 from django.test import TestCase
@@ -194,9 +194,9 @@ class MyTests(TestCase):
 
 ---
 
-#### 8. Measuring Test Coverage  
+#### 8. Measuring Test Coverage
 
-To ensure all code paths are tested, use **coverage.py**:  
+To ensure all code paths are tested, use **coverage.py**:
 
 ```bash
 pip install coverage
@@ -204,7 +204,7 @@ coverage run manage.py test
 coverage report -m
 ```
 
-For an HTML report:  
+For an HTML report:
 
 ```bash
 coverage html

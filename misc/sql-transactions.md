@@ -31,7 +31,7 @@ WHERE account_id = 2;
 COMMIT;
 ```
 
-In this example, money is being transferred from one account to another. Both updates are part of a single transaction, ensuring that either both updates succeed or both fail.
+Here, oney is being transferred from one account to another. Both updates are part of a single transaction, ensuring that either both updates succeed or both fail.
 
 #### Isolation Levels
 

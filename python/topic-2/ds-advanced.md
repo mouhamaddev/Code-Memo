@@ -2,7 +2,7 @@
 
 #### Advanced Usage of `collections` Module
 
-The `collections` module in Python provides specialized container datatypes beyond the built-in types like lists and dictionaries, offering enhanced functionality and performance.
+The `collections` module provides specialized container datatypes beyond the built-in types like lists and dictionaries, offering enhanced functionality and performance.
 
 ##### `deque`, `defaultdict`, `Counter`
 

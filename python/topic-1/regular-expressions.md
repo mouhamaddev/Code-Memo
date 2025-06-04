@@ -1,6 +1,6 @@
 ### Regular Expressions
 
-**Regular expressions (regex)** are sequences of characters that form search patterns, primarily used for string matching.
+**Regular expressions (regex)** are sequences of characters that form search patterns usually used for string matching.
 
 #### Basic Example
 
@@ -13,7 +13,7 @@ matches = re.findall(pattern, string)
 print(matches)  # Output: ['123', '45678']
 ```
 
-#### Advanced Example: Email Validation
+#### Email Validation
 
 ```python
 pattern = r'^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$'
@@ -25,7 +25,7 @@ else:
     print("Invalid email")
 ```
 
-#### Using `re` Functions
+#### `re` Functions
 
 - **search()**: Search for a pattern in a string.
 

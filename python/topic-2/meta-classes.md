@@ -1,16 +1,16 @@
 ## Basics of Metaclasses
 
-Metaclasses a way to customize the creation and behavior of classes. They are often used when you need to apply common logic or transformations to multiple classes, enforce design patterns, or automate repetitive tasks during class creation.
+Metaclasses are a way to customize the creation and behavior of classes. They are often used when you need to apply common logic or transformations to multiple classes, enforce design patterns, or automate repetitive tasks during class creation.
 
 1. **Class as an Instance of Metaclass**:
 
-   - In Python, classes themselves are instances of metaclasses. By default, most classes are instances of the `type` metaclass.
+   - Classes themselves are instances of metaclasses. By default, most classes are instances of the `type` metaclass.
 
 2. **Metaclass Definition**:
    - A metaclass is a class of a class. It defines how classes behave, just as classes define how instances (objects) behave.
    - To define a custom metaclass, you typically inherit from `type`.
 
-#### Example: Creating a Simple Metaclass
+#### Simple Metaclass
 
 ```python
 class MyMeta(type):
@@ -25,7 +25,7 @@ class MyClass(metaclass=MyMeta):
     pass
 ```
 
-### Advanced Patterns with Metaclasses
+### Patterns with Metaclasses
 
 #### Customizing Class Creation
 
@@ -33,7 +33,7 @@ class MyClass(metaclass=MyMeta):
   - `__new__()` is called before the class is created, and it returns the newly created class object.
   - `__init__()` initializes the created class object, similar to instance initialization.
 
-#### Example: Adding Methods Dynamically
+#### Adding Methods Dynamically
 
 ```python
 class MyMeta(type):

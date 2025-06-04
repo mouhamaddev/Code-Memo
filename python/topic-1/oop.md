@@ -8,7 +8,6 @@
 - **Object**: An instance of a class.
 
 **2. Defining a Class**
-Use the `class` keyword.
 
 ```python
 class Dog:
@@ -52,7 +51,7 @@ my_dog = Dog("Buddy", 3)
 print(my_dog.bark())  # Output: Buddy says woof!
 ```
 
-#### Advanced Concepts
+#### More Advanced Concepts
 
 **1. Class Variables and Methods**
 
@@ -157,9 +156,9 @@ class Person:
     def get_age(self):
         return self.__age
 
-person = Person("Alice", 30)
-print(person._name)  # Output: Alice
-print(person.get_age())  # Output: 30
+person = Person("Ort", 21)
+print(person._name)  # Output: Ort
+print(person.get_age())  # Output: 21
 # print(person.__age)  # AttributeError
 ```
 
@@ -234,7 +233,7 @@ print(v1 + v2)  # Output: Vector(6, 8)
 ```
 
 **10. Property Decorators**
-Getters and setters in Python using the `@property` decorator.
+Getters and setters using the `@property` decorator.
 
 ```python
 class Person:
@@ -251,10 +250,10 @@ class Person:
             raise ValueError("Name cannot be empty")
         self._name = value
 
-person = Person("Alice")
-print(person.name)  # Output: Alice
-person.name = "Bob"
-print(person.name)  # Output: Bob
+person = Person("Ort")
+print(person.name)  # Output: Ort
+person.name = "Joe"
+print(person.name)  # Output: Joe
 ```
 
 **11. Class Decorators and Metaclasses**

@@ -28,8 +28,6 @@ class Solution(object):
                     return [i, j]
 ```
 
-### Explanation:
-
 - **Time Complexity**: O(n^2)
 - **Space Complexity**: O(1)
 - This approach checks every pair of indices `(i, j)` in `nums` to see if their elements sum up to `target`. It is inefficient for large arrays due to the nested loops.
@@ -53,8 +51,6 @@ class Solution(object):
             nums_map[current_number] = i
         return []
 ```
-
-### Explanation:
 
 - **Time Complexity**: O(n)
 - **Space Complexity**: O(n)

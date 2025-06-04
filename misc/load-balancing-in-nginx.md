@@ -22,7 +22,6 @@ http {
 }
 ```
 
-In this example:
 - The `upstream` block defines a group of backend servers (`backend1`, `backend2`, `backend3`).
 - The `proxy_pass` directive in the `location` block forwards requests to the upstream group.
 
@@ -33,7 +32,7 @@ Nginx supports several load balancing algorithms. You can configure these method
 #### Round Robin (Default)
 
 - Distributes requests evenly across all servers.
-  
+
 ```nginx
 upstream myapp {
     server backend1.example.com;
@@ -83,6 +82,6 @@ server {
 }
 ```
 
-
 #### Quick Notes:
+
 - Use `nginx -t` to test configuration syntax before applying changes.

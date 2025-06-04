@@ -7,7 +7,7 @@ square = lambda x: x ** 2
 print(square(5))  # Output: 25
 ```
 
-#### Using Lambda with `map()`, `filter()`, and `reduce()`
+#### Lambda with `map()`, `filter()`, and `reduce()`
 
 - **map()**: Apply a function to all items in an input list.
 

@@ -1,4 +1,4 @@
-### Using `*args` (Arbitrary Arguments)
+### `*args` (Arbitrary Arguments)
 
 The `*args` parameter in a function allows you to pass a variable number of positional arguments. Inside the function, `args` will be a tuple containing all the positional arguments passed to the function.
 
@@ -14,13 +14,11 @@ print(sum_all(1, 2, 3))  # Output: 6
 print(sum_all(10, 20, 30, 40))  # Output: 100
 ```
 
-In this example:
-
 - `sum_all` accepts any number of arguments (`*args`).
 - Inside the function, `args` becomes a tuple (`(1, 2, 3)` or `(10, 20, 30, 40)`).
 - It iterates through `args` and calculates the sum.
 
-### Using `**kwargs` (Arbitrary Keyword Arguments)
+### `**kwargs` (Arbitrary Keyword Arguments)
 
 The `**kwargs` parameter allows you to pass a variable number of keyword arguments to a function. Inside the function, `kwargs` is a dictionary containing the keyword arguments passed to the function, where keys are the argument names and values are their corresponding values.
 
@@ -30,16 +28,14 @@ def display_info(**kwargs):
         print(f"{key}: {value}")
 
 # Example usage
-display_info(name="Alice", age=30, city="New York")
+display_info(name="Ort", age=21, city="Beirut")
 ```
 
-In this example:
-
 - `display_info` accepts any number of keyword arguments (`**kwargs`).
-- Inside the function, `kwargs` is a dictionary (`{"name": "Alice", "age": 30, "city": "New York"}`).
+- Inside the function, `kwargs` is a dictionary (`{"name": "Ort", "age": 21, "city": "Beirut"}`).
 - It iterates through `kwargs` and prints each key-value pair.
 
-### Using `*args` and `**kwargs` Together
+### `*args` and `**kwargs` Together
 
 You can use `*args` and `**kwargs` together in a function to handle both positional and keyword arguments simultaneously.
 
@@ -54,15 +50,13 @@ def process_data(*args, **kwargs):
         print(f"{key}: {value}")
 
 # Example usage
-process_data(1, 2, 3, name="Alice", age=30, city="New York")
+process_data(1, 2, 3, name="Ort", age=21, city="Beirut")
 ```
-
-In this example:
 
 - `process_data` accepts both positional arguments (`*args`) and keyword arguments (`**kwargs`).
 - It prints the positional arguments and then the keyword arguments.
 
-### Using `*args` and `**kwargs` in Decorators
+### `*args` and `**kwargs` in Decorators
 
 Decorators often use `*args` and `**kwargs` to wrap and modify functions without knowing the specific arguments of the function being decorated.
 
@@ -96,8 +90,6 @@ def calculate_total(*args, discount_rate=0, **kwargs):
 # Example call
 print(calculate_total(100, 50, 75, discount_rate=0.1, extra_shipping=10, extra_handling=5))
 ```
-
-In this decorator example:
 
 - `log_arguments` decorates `calculate_total`.
 - `wrapper` in `log_arguments` prints all positional and keyword arguments passed to `calculate_total`.

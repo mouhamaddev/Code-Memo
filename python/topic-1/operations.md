@@ -101,8 +101,8 @@ Python supports type hints to specify the expected type of variables.
 def greeting(name: str) -> str:
     return "Hello, " + name
 
-name: str = "Alice"
-age: int = 30
+name: str = "Ort"
+age: int = 21
 ```
 
 #### F-Strings
@@ -110,8 +110,8 @@ age: int = 30
 Formatted string literals for easy string interpolation.
 
 ```python
-name = "Alice"
-age = 30
+name = "Ort"
+age = 21
 
 print(f"Hello, {name}. You are {age} years old.")
 ```
@@ -138,9 +138,7 @@ x, y, z = lst
 print(x, y, z)  # 4 5 6
 ```
 
-gap1
-
-#### Using the `enumerate` function
+#### `enumerate` function
 
 Enumerate adds a counter to an iterable.
 
@@ -149,19 +147,19 @@ for index, value in enumerate(['a', 'b', 'c']):
     print(index, value)
 ```
 
-#### Using the `zip` function
+#### `zip` function
 
 Combining iterables.
 
 ```python
-names = ["Alice", "Bob", "Charlie"]
+names = ["Ort", "Joe", "Bob"]
 ages = [25, 30, 35]
 
 for name, age in zip(names, ages):
     print(f"{name} is {age} years old.")
 ```
 
-#### Using the `map` function
+#### `map` function
 
 Apply a function to all items in an input list.
 
@@ -171,7 +169,7 @@ squares = list(map(lambda x: x**2, nums))
 print(squares)  # [1, 4, 9, 16, 25]
 ```
 
-#### Using the `filter` function
+#### `filter` function
 
 Filter items out of a list.
 
@@ -181,7 +179,7 @@ even_nums = list(filter(lambda x: x % 2 == 0, nums))
 print(even_nums)  # [2, 4]
 ```
 
-#### Using the `reduce` function
+#### `reduce` function
 
 Apply a function of two arguments cumulatively.
 
@@ -192,8 +190,6 @@ nums = [1, 2, 3, 4, 5]
 product = reduce(lambda x, y: x * y, nums)
 print(product)  # 120
 ```
-
-gap1end
 
 #### Ternary Conditional Operator
 
@@ -212,7 +208,7 @@ x += increment
 print(x)  # 8
 ```
 
-#### Using `any()` and `all()`
+#### `any()` and `all()`
 
 - **`any()`**: Returns `True` if any element in an iterable is `True`.
 

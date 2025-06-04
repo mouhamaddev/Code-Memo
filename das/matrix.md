@@ -3,9 +3,9 @@
 An **Adjacency Matrix** is a 2D array used to represent a graph.
 It’s ideal for **dense graphs** where most pairs of nodes are connected.
 
-* If there is an edge between node `i` and node `j`, then `matrix[i][j] = 1` (or weight `w`).
-* For **undirected graphs**, the matrix is **symmetric**.
-* For **directed graphs**, `matrix[i][j] = 1` means there’s a **one-way edge** from `i` to `j`.
+- If there is an edge between node `i` and node `j`, then `matrix[i][j] = 1` (or weight `w`).
+- For **undirected graphs**, the matrix is **symmetric**.
+- For **directed graphs**, `matrix[i][j] = 1` means there’s a **one-way edge** from `i` to `j`.
 
 #### Example Graph:
 
@@ -25,7 +25,7 @@ Adjacency Matrix:
 3 [0 1 1 0]
 ```
 
-#### Matrix Representation in Python
+#### Matrix Representation
 
 ```python
 class GraphMatrix:
@@ -91,7 +91,7 @@ def dfs_matrix(graph, node, visited=None):
 
 #### Space & Time Complexity
 
-* **Space**: O(V²)
-* **Insert/Delete Edge**: O(1)
-* **Check if edge exists**: O(1)
-* **Inefficient for sparse graphs** (many 0s)
+- **Space**: O(V²)
+- **Insert/Delete Edge**: O(1)
+- **Check if edge exists**: O(1)
+- **Inefficient for sparse graphs** (many 0s)

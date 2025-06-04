@@ -1,6 +1,6 @@
 ## Basics of Context Managers
 
-Context managers in Python provide a convenient way to manage resources, such as files or database connections, ensuring they are properly initialized and cleaned up. They are used extensively with the `with` statement and are implemented using special methods `__enter__()` and `__exit__()`.
+Context managers provide a convenient way to manage resources, such as files or database connections, ensuring they are properly initialized and cleaned up. They are used extensively with the `with` statement and are implemented using special methods `__enter__()` and `__exit__()`.
 
 A context manager is any object that implements the context management protocol:
 
@@ -26,7 +26,7 @@ with FileContextManager(filename, 'w') as file:
     file.write('Hello, context managers!')
 ```
 
-### Advanced Patterns with Context Managers
+### Patterns with Context Managers
 
 #### Nested Context Managers
 

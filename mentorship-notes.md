@@ -9,4 +9,5 @@ Below is a quick About Me page that sums up why I’m here and what I’m workin
 <br>
 
 #### Notes:
-1. 
+
+1.

@@ -41,14 +41,15 @@ class Command(BaseCommand):
     def handle(self, *args, **kwargs):
         # Custom logic goes here
         self.stdout.write("Executing my custom command...")
-        
-        # Example: Query a model and print results
+
+        # Query a model and print results
         objects = MyModel.objects.all()
         for obj in objects:
             self.stdout.write(f"Object: {obj.name}")
 ```
 
 Here:
+
 - `help` provides a description of what the command does. This will appear when you run `python manage.py help`.
 - `handle` is where the logic of the command resides. In this case, it prints the names of all objects in `MyModel`.
 

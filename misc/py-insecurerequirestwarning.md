@@ -1,4 +1,4 @@
-### Handling InsecureRequestWarning in Python
+### Handling InsecureRequestWarning
 
 ## Issue:
 

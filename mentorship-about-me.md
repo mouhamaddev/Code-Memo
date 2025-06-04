@@ -1,6 +1,6 @@
 I’m 21 years old, graduated recently with a Bachelor’s in Computer Science.
 
-I started coding in 2017 and was into game development. 
+I started coding in 2017 and was into game development.
 
 From 2023 to mid-2024, during my first year of university, I landed my first hybrid job at a local e-commerce company. I managed to balance both work and studies. The money wasn’t great, but the experience was absolutely worth it.
 
@@ -15,6 +15,7 @@ I'm currently seeking mentorship because I believe it's one of the most effectiv
 <br>
 
 <b>Ways a mentor could guide me</b>
+
 1. What would your learning roadmap look like for the next 6–12 months if you were in my position?
 2. What’s one mistake people at my position usually make that I should avoid?
 3. If you were a hiring manager at a top-tier company, would you consider me for an engineering role? If not, what do you think is missing?
@@ -22,6 +23,7 @@ I'm currently seeking mentorship because I believe it's one of the most effectiv
 <br>
 
 Also would be great to have feedback in:
+
 1. Profiles ([GitHub](https://github.com/mouhamaddev/), [LinkedIn](https://www.linkedin.com/in/mouhamaddev/)..).
 2. My [Resume](https://mouhamaddev.github.io/mouhamaddev/).
 3. [Django async framework](https://github.com/mouhamaddev/django-async-framework) (Python library)

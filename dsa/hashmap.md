@@ -1,9 +1,9 @@
-### Hashmaps (Dictionaries in Python)
+### Hashmaps (Dictionaries)
 
 A **Hashmap** (also called a **Hash Table**) is a data structure that stores key-value pairs.
 It uses a **hash function** to map keys to indices in an internal array, allowing **average O(1) time complexity** for insertion, deletion, and lookup.
 
-In Python, hashmaps are implemented using the built-in `dict` type.
+Hashmaps are implemented using the built-in `dict` type.
 
 ### Initialization
 

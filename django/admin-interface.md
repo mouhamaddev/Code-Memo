@@ -37,8 +37,6 @@ class MyModelAdmin(admin.ModelAdmin):
 admin.site.register(MyModel, MyModelAdmin)
 ```
 
-In this example:
-
 - `list_display` specifies the fields to be displayed in the list view of the admin panel.
 - `search_fields` adds a search box to the admin panel to search specific fields.
 - `list_filter` adds filters to the sidebar to filter the list view by specific fields.

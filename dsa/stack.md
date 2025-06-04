@@ -2,9 +2,10 @@
 
 A stack is a linear data structure that follows the Last In First Out (LIFO) principle. The element added last is the first to be removed.
 
-In Python, lists can be used to implement a stack. Lists provide append() and pop() methods.
+Lists can be used to implement a stack. Lists provide append() and pop() methods.
 
 #### Basic Operations
+
 1. **Push**: Add an element to the top of the stack.
 2. **Pop**: Remove the top element from the stack.
 3. **Peek/Top**: Get the top element without removing it.
@@ -57,6 +58,7 @@ if __name__ == "__main__":
 ```
 
 #### Implementation Using Linked Lists
+
 A stack can also be implemented using a linked list, where the top of the stack is the head of the linked list.
 
 ##### Node Class

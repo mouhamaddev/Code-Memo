@@ -9,7 +9,7 @@ sudo apt update
 sudo apt install bpytop
 ```
 
-`bpytop` is a system resource monitor written in Python, and it can be installed easily using package manager or pip.
+`bpytop` is a system resource monitor and it can be installed easily using package manager or pip.
 
 ### Step 2: Create a Systemd Service File
 

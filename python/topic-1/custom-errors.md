@@ -18,7 +18,7 @@ except CustomError as e:
     print(e)  # Output: Negative value error
 ```
 
-#### Advanced Example: Adding Attributes
+#### Adding Attributes
 
 ```python
 class CustomError(Exception):
@@ -32,7 +32,7 @@ except CustomError as e:
     print(f"Error: {e}, Code: {e.code}")  # Output: Error: An error occurred, Code: 404
 ```
 
-#### Using Custom Errors in a Context
+#### Custom Errors in a Context
 
 ```python
 class NegativeValueError(Exception):

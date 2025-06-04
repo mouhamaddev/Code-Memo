@@ -10,7 +10,7 @@ Welcome to my [Code Memo](https://mouhamaddev.github.io/Code-Memo/)! I forget a 
 2. [Data Structures and Algorithms](/dsa.md)
 3. [Django and Django REST Framework (DRF)](/django.md)
 4. [Software Engineering Principles](/sep.md)
-5. System Design and Architecture ⏳
+5. [System Design and Architecture](/system-design.md)
 6. API Design ⏳
 7. [Misc](/misc.md)
 8. [Interview Preparation](/interviews.md)
@@ -54,4 +54,4 @@ Feel free to explore each section and make use of the information as needed. If 
 
 And don't forget to take notes! ❤️
 
-Version: 3.1.4
+Version: 3.1.5

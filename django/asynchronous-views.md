@@ -23,7 +23,6 @@ async def my_async_view(request):
     return JsonResponse({"message": "This response was delayed by 2 seconds."})
 ```
 
-In this example:
 - `async def` defines the view as asynchronous.
 - `await asyncio.sleep(2)` simulates an asynchronous operation (e.g., an API request or file operation).
 - The view returns a `JsonResponse` after the delay.
@@ -33,6 +32,7 @@ In this example:
 ### When to Use Asynchronous Views
 
 Asynchronous views are ideal for situations where:
+
 1. You are waiting for non-blocking operations like external API calls, database queries, or file I/O.
 2. You want to handle many requests concurrently without blocking Django's event loop.
 3. You need to improve performance for I/O-bound operations, particularly when dealing with high-concurrency systems.
@@ -40,9 +40,7 @@ Asynchronous views are ideal for situations where:
 #### Common Use Cases
 
 - **External API calls**: When your Django application needs to fetch data from external services (e.g., REST APIs, web scraping), asynchronous views help you avoid blocking other requests.
-  
 - **Database Queries**: Django’s ORM doesn't support async natively for database queries (at least not in full), but you can use async views with other async database drivers or libraries to interact with the database asynchronously.
-  
 - **File Handling**: Asynchronous views are useful for handling file uploads, downloads, or large file manipulations where blocking could be detrimental to performance.
 
 ---
@@ -102,6 +100,7 @@ async def my_concurrent_view(request):
 ```
 
 Here:
+
 - The view uses `asyncio.gather` to fetch data from two APIs concurrently.
 - `httpx.AsyncClient` is used to perform non-blocking HTTP requests.
 
@@ -159,7 +158,7 @@ class ChatConsumer(AsyncWebsocketConsumer):
         }))
 ```
 
-This example uses Django Channels for handling WebSocket connections, which is inherently asynchronous. 
+This example uses Django Channels for handling WebSocket connections, which is inherently asynchronous.
 
 ---
 

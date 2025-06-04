@@ -1,11 +1,11 @@
-### Variables in Python
+### Variables
 
 ```python
 x = 5
 y = "Hello, World!"
 ```
 
-#### Variable Naming Rules
+##### Variable Naming Rules
 
 - Must start with a letter or an underscore
 - Cannot start with a number
@@ -19,7 +19,9 @@ MY_VAR = 30
 myVar2 = 40
 ```
 
-#### Dynamic Typing
+<br>
+
+##### Dynamic Typing
 
 Python is dynamically typed, meaning you don't need to declare the type of a variable. The type is inferred from the value.
 
@@ -28,11 +30,11 @@ x = 10      # int
 x = "text"  # str
 ```
 
+<br>
+
 ### Data Types
 
-Python has several built-in data types:
-
-#### Numeric Types
+##### Numeric Types
 
 - **int**: Integer values
 
@@ -52,12 +54,12 @@ Python has several built-in data types:
   z = 1 + 2j
   ```
 
-#### Sequence Types
+##### Sequence Types
 
 - **str**: String
 
   ```python
-  name = "Alice"
+  name = "Ort"
   ```
 
 - **list**: Ordered, mutable collection
@@ -72,15 +74,15 @@ Python has several built-in data types:
   my_tuple = (1, 2, 3)
   ```
 
-#### Mapping Type
+##### Mapping Type
 
 - **dict**: Key-value pairs
 
   ```python
-  my_dict = {"name": "Alice", "age": 25}
+  my_dict = {"name": "Ort", "age": 21}
   ```
 
-#### Set Types
+##### Set Types
 
 - **set**: Unordered, unique collection
 
@@ -94,7 +96,7 @@ Python has several built-in data types:
   my_frozenset = frozenset([1, 2, 3])
   ```
 
-#### Boolean Type
+##### Boolean Type
 
 - **bool**: True or False
 
@@ -102,7 +104,7 @@ Python has several built-in data types:
   is_active = True
   ```
 
-#### None Type
+##### None Type
 
 - **NoneType**: Represents the absence of a value
 
@@ -110,7 +112,7 @@ Python has several built-in data types:
   x = None
   ```
 
-#### Input
+##### Input
 
 - **List Comprehensions**: To read multiple values into a list.
 

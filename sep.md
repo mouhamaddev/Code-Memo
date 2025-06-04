@@ -18,6 +18,6 @@
 
 <br>
 
-##### Development Processes Notes
+##### Misc Notes
 
-[Software Development Life Cycle (SDLC)](/sep/development_processes_quick_notes.md)
+[Misc Notes](/sep/sep_misc.md)

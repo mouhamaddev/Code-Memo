@@ -1,10 +1,10 @@
 ## Decorators
 
-Decorators in Python are a powerful feature used to modify or extend functions or methods without changing their source code directly. They are functions themselves that take another function as an argument, add some functionality, and then return another function. Decorators allow you to wrap another function to modify its behavior.
+Decorators are a powerful feature used to modify or extend functions or methods without changing their source code directly. They are functions themselves that take another function as an argument, add some functionality, and then return another function. Decorators allow you to wrap another function to modify its behavior.
 
 #### Basics of Decorators
 
-1. **Function Basics**: In Python, functions are first-class citizens, which means they can be passed around and used as arguments just like any other object (e.g., integers, strings).
+1. **Function Basics**: Functions are first-class citizens, which means they can be passed around and used as arguments just like any other object (e.g., integers, strings).
 
 2. **Syntax**: Decorators use the `@decorator_name` syntax above the function definition. It's a cleaner and more readable way to apply decorators compared to the traditional way of using `function_name = decorator_name(function_name)`.
 
@@ -12,7 +12,7 @@ Decorators in Python are a powerful feature used to modify or extend functions o
 
 #### Creating a Decorator to Measure Function Execution Time
 
-Let's create a custom decorator to measure the execution time of a function using Python's `time` module:
+We can create a custom decorator to measure the execution time of a function using `time` module:
 
 ```python
 import time
@@ -26,8 +26,6 @@ def measure_time(func):
         return result
     return wrapper
 ```
-
-#### Explanation:
 
 - **Outer Function (`measure_time`)**:
 
@@ -46,7 +44,7 @@ def measure_time(func):
 - **Returning `wrapper`**:
   - Returns the `wrapper` function, which replaces the original function when used as a decorator.
 
-#### Example Usage:
+#### Usage:
 
 ```python
 @measure_time

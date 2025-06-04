@@ -5,7 +5,7 @@ Iterators are objects that implement the iterator protocol, consisting of two me
 1. **`__iter__()`**: Returns the iterator object itself.
 2. **`__next__()`**: Returns the next item in the sequence. When no more items are available, it raises the `StopIteration` exception.
 
-In Python, any object that implements these methods can be used as an iterator. Iterators are used in `for` loops, comprehensions, and other contexts where sequential or lazy evaluation is required.
+Any object that implements these methods can be used as an iterator. Iterators are used in `for` loops, comprehensions, and other contexts where sequential or lazy evaluation is required.
 
 ```python
 class Counter:
@@ -28,6 +28,8 @@ counter = Counter(1, 5)
 for num in counter:
     print(num)
 ```
+
+<br>
 
 ## Generators
 
@@ -68,13 +70,15 @@ for num in gen_exp:
 - **Simplified code**: Eliminates the boilerplate of iterator classes.
 - **Supports pipelines**: Generators can be chained together for data processing.
 
-### Advanced Concepts
+<br>
+
+### More Advanced Concepts
 
 - **`send()` Method**: Allows sending data into a generator.
 - **`throw()` Method**: Raises an exception at a specific point in the generator.
 - **`close()` Method**: Terminates the generator.
 
-#### Using `send()`:
+#### `send()`:
 
 ```python
 def accumulator():

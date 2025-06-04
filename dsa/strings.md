@@ -1,6 +1,6 @@
 ### Strings
 
-A string is a **sequence of characters** enclosed in quotes. In Python, strings are **immutable**, meaning once created, they cannot be changed. Strings support indexing, slicing, and a rich set of built-in methods for manipulation.
+A string is a **sequence of characters** enclosed in quotes. Strings are **immutable**, meaning once created, they cannot be changed. Strings support indexing, slicing, and a rich set of built-in methods for manipulation.
 
 #### Initialization
 
@@ -57,13 +57,13 @@ for char in s:
 
 **7. Search**
 
-* **Check substring**
+- **Check substring**
 
 ```python
 "ell" in s  # True
 ```
 
-* **Find index**
+- **Find index**
 
 ```python
 s.find("l")       # Returns 2 (first occurrence)
@@ -73,20 +73,20 @@ s.index("l")      # Like find(), but raises error if not found
 
 **8. Modification (via new string)**
 
-* **Replace**
+- **Replace**
 
 ```python
 s = s.replace("world", "there")  # 'hello there'
 ```
 
-* **Upper/Lower**
+- **Upper/Lower**
 
 ```python
 s.upper()     # 'HELLO THERE'
 s.lower()     # 'hello there'
 ```
 
-* **Strip**
+- **Strip**
 
 ```python
 "  hello  ".strip()   # 'hello'
@@ -102,20 +102,20 @@ joined = "-".join(words)  # 'hello-there'
 
 **10. Formatting**
 
-* **f-Strings**
+- **f-Strings**
 
 ```python
 name = "Ortie"
 f"Hello, {name}!"  # 'Hello, Ortie!'
 ```
 
-* **Old style**
+- **Old style**
 
 ```python
 "Hello, %s!" % name
 ```
 
-* **`str.format()`**
+- **`str.format()`**
 
 ```python
 "Hello, {}!".format(name)

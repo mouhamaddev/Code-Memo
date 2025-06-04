@@ -224,7 +224,7 @@ my_set = {1, 2, 3} # my_set = set({1, 2, 3})
 A dictionary is an unordered, mutable collection of key-value pairs.
 
 ```python
-my_dict = {'name': 'Alice', 'age': 25}
+my_dict = {'name': 'Ort', 'age': 25}
 ```
 
 #### Accessing Elements
@@ -232,7 +232,7 @@ my_dict = {'name': 'Alice', 'age': 25}
 Use keys to access values.
 
 ```python
-print(my_dict['name'])  # Alice
+print(my_dict['name'])  # Ort
 ```
 
 #### Adding/Updating Elements

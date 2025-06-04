@@ -17,11 +17,11 @@ async def async_task():
 asyncio.run(async_task())
 ```
 
-#### Handling Asynchronous I/O Operations
+#### Asynchronous I/O Operations
 
-Asynchronous I/O operations involve tasks that wait for external resources (e.g., network requests, file operations). Asyncio provides mechanisms to handle these operations efficiently without blocking the event loop.
+Asynchronous I/O operations involve tasks that wait for external resources. Asyncio provides mechanisms to handle these operations efficiently without blocking the event loop.
 
-##### Example: Asynchronous HTTP Request with aiohttp
+##### Asynchronous HTTP Request with aiohttp
 
 ```python
 import aiohttp
@@ -40,14 +40,12 @@ async def main():
 asyncio.run(main())
 ```
 
-##### Explanation:
-
 - **`aiohttp.ClientSession`**: Manages HTTP connections and provides a context manager for making HTTP requests asynchronously.
 - **`session.get(url)`**: Initiates an asynchronous GET request to the specified URL.
 - **`response.text()`**: Asynchronously retrieves and returns the response body as text.
 
-### Benefits of Asynchronous Programming
+### Why do we use Async?
 
-- **Improved Efficiency**: Non-blocking operations allow other tasks to run while waiting for I/O.
-- **Scalability**: Handles large numbers of concurrent connections efficiently.
-- **Simplified Code**: Avoids callback-based programming with clearer syntax using `async` and `await`.
+- Non-blocking operations allow other tasks to run while waiting for I/O.
+- Handles large numbers of concurrent connections efficiently.
+- Avoids callback-based programming with clearer syntax using `async` and `await`.

@@ -4,7 +4,7 @@
 
 Django supports multiple relational database management systems (RDBMS) apart from SQLite, including **PostgreSQL, MySQL, MariaDB, and Oracle**. To switch from SQLite to another database, the database settings in `settings.py` must be updated.
 
-##### Example: Configuring PostgreSQL
+##### Configuring PostgreSQL
 
 ```python
 DATABASES = {
@@ -88,6 +88,7 @@ This creates necessary tables for Django’s built-in apps like authentication, 
 #### Creating and Managing Database Users
 
 **PostgreSQL User Creation**
+
 ```sql
 CREATE USER mydatabaseuser WITH PASSWORD 'mypassword';
 ALTER ROLE mydatabaseuser SET client_encoding TO 'utf8';
@@ -97,6 +98,7 @@ GRANT ALL PRIVILEGES ON DATABASE mydatabase TO mydatabaseuser;
 ```
 
 **MySQL User Creation**
+
 ```sql
 CREATE USER 'mydatabaseuser'@'localhost' IDENTIFIED BY 'mypassword';
 GRANT ALL PRIVILEGES ON mydatabase.* TO 'mydatabaseuser'@'localhost';

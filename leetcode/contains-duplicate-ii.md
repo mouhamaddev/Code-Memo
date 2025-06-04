@@ -28,8 +28,6 @@ class Solution(object):
         return False  # If no duplicates within k distance are found, return False
 ```
 
-### Explanation:
-
 - **Time Complexity**: O(n)
 - **Space Complexity**: O(n)
 

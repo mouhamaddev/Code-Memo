@@ -1,6 +1,6 @@
 ### Recursion
 
-**Recursion** is a method where a function calls itself in order to solve a problem. Each recursive call should break down the problem into smaller instances until a base case is reached, ensuring termination.
+**Recursion** is a method where a function calls itself in order to solve a problem. Each recursive call should break down the problem into smaller instances until a base case is reached.
 
 ```python
 def factorial(n):
@@ -12,7 +12,7 @@ def factorial(n):
 print(factorial(5))  # Output: 120
 ```
 
-#### Advanced Example: Fibonacci Series
+#### Fibonacci Series
 
 Computing the nth Fibonacci number using recursion:
 

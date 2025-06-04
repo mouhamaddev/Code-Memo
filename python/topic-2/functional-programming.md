@@ -6,7 +6,7 @@ Functional programming is a paradigm in programming where functions are treated 
 
 Lambda functions, also known as anonymous functions, are one-line functions defined using the `lambda` keyword. They are typically used for simple operations where defining a full function using `def` would be overkill.
 
-#### Example: Lambda Function
+#### Lambda Function
 
 ```python
 # Regular function
@@ -27,10 +27,10 @@ Lambda functions are often used in scenarios where a function is needed temporar
 
 Higher-order functions are functions that take other functions as arguments or return functions as results. They enable functional programming paradigms such as map, filter, reduce, and more complex operations like function composition.
 
-#### Example: Higher-Order Function (Map)
+#### Higher-Order Function (Map)
 
 ```python
-# Map example: Applying a function to each element in a list
+# Map: Applying a function to each element in a list
 numbers = [1, 2, 3, 4, 5]
 squared = list(map(lambda x: x ** 2, numbers))
 print(squared)  # Output: [1, 4, 9, 16, 25]
@@ -43,13 +43,13 @@ In the above example:
 
 ### functools Module
 
-The `functools` module in Python provides higher-order functions for functional programming, along with utilities to manipulate functions and decorators. Two important functions in `functools` are `wraps` and `partial`.
+The `functools` module provides higher-order functions for functional programming, along with utilities to manipulate functions and decorators. Two important functions in `functools` are `wraps` and `partial`.
 
 #### functools.wraps
 
 The `wraps` function is a decorator used to update the attributes of a wrapper function to look like the attributes of the original function. This is useful for preserving metadata (e.g., docstring, name) of the original function when creating decorators.
 
-#### Example: Using `wraps`
+#### `wraps`
 
 ```python
 from functools import wraps
@@ -67,18 +67,18 @@ def greet(name):
     return f"Hello, {name}!"
 
 # Usage
-print(greet("Alice"))  # Output: Calling greet \n Hello, Alice!
+print(greet("Ort"))  # Output: Calling greet \n Hello, Ort!
 print(greet.__name__)  # Output: greet
 print(greet.__doc__)   # Output: Greet someone.
 ```
 
-In this example, `wraps` ensures that the decorated function `wrapper` retains the metadata (name and docstring) of the original function `greet`.
+`wraps` ensures that the decorated function `wrapper` retains the metadata (name and docstring) of the original function `greet`.
 
 #### functools.partial
 
 The `partial` function allows you to fix a certain number of arguments of a function and generate a new function with fewer arguments than the original. It's useful for creating specialized functions from more general ones.
 
-#### Example: Using `partial`
+#### `partial`
 
 ```python
 from functools import partial
@@ -96,7 +96,7 @@ print(square(5))  # Output: 25 (equivalent to power(5, 2))
 
 Here, `partial` fixes the `exponent` argument of the `power` function, creating a new function `square` that squares its argument.
 
-### Benefits of Functional Programming in Python
+### Benefits of Functional Programming
 
 - **Modularity**: Encourages writing modular and reusable code through small, composable functions.
 - **Readability**: Emphasizes clear, brief expressions of logic.

@@ -4,7 +4,7 @@
 
 **`pdb` (Python Debugger)**:
 
-- `pdb` is the built-in debugger in Python. It allows you to set breakpoints, step through code, inspect variables, and evaluate expressions.
+- `pdb` is the built-in debugger. It allows you to set breakpoints, step through code, inspect variables, and evaluate expressions.
 
 Example usage of `pdb`:
 
@@ -53,7 +53,7 @@ pip install ipdb
 
 **`cProfile`**:
 
-- `cProfile` is a built-in Python module for profiling the performance of your code, providing statistics on function call times and frequencies.
+- `cProfile` is a built-in module for profiling the performance of your code, providing statistics on function call times and frequencies.
 
 Example usage of `cProfile`:
 
@@ -144,7 +144,7 @@ To use the `@profile` decorator with `line_profiler`:
 
 **Memory Profiling**:
 
-- Tools like `memory_profiler` help track memory usage in Python applications, identifying memory leaks and optimization opportunities.
+- Tools like `memory_profiler` help track memory usage in applications, identifying memory leaks and optimization opportunities.
 
 Install `memory_profiler` using pip:
 
