@@ -5,6 +5,7 @@
 ##### Books Summaries
 
 [Writing Clean and Maintainable Code 🚀](/sep/clean-code.md)
+<br>
 [Design Patterns: Elements of Reusable Object-Oriented Software 🚀](/sep/design-patterns.md)
 
 <br>
