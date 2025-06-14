@@ -10,4 +10,7 @@ Below is a quick About Me page that sums up why I’m here and what I’m workin
 
 #### Notes:
 
-1.
+1. You don't get paid for writing code, you get paid for making technical decision.
+2. Practice explaining complex things simply.
+3. A product must solve a real business problem.
+4. Study product-market fit and customer pain points.
