@@ -1,41 +1,33 @@
 ## Interview Preparation
 
-<i>The Scariest Thing Ever :D</i>
-
-Honestly I wasn’t planning to share these interview prep notes at first. I felt like it's something I’d keep to myself. But since Code-Memo already covers most of the stuff I’m specializing in, and interviews are a big part of that right now, I figured I’d add them here too hoping they’ll help someone else on a similar journey.
-
-<br>
-
----
-
-Randoms:
+Randoms:<br>
 One thing I’ve been really focused on lately is finding strong mentors, people who’ve been at top-tier companies and really know how to build world-class systems.
-When it comes to setting goals, I’m a big believer in aiming high, even if I don’t hit 100%, the progress I make will still be way beyond average. For example, in my daily to-do list, I’ll put down 10 to 12 tasks knowing I probably won’t finish them all, but getting 7 or 8 done already feels like a win.
-So for the future, I’m aiming big, I want to grow my leadership skills to eventually become a technical leader, maybe a CTO. So I’m looking for a place where I can learn from great engineers while building real impact.
+When it comes to setting goals, I’m a big believer in aiming high, even if I don’t hit 100%, the progress I make will still be way beyond average. For example, in my daily to-do list, I’ll put down 10 to 12 tasks knowing I probably won’t finish them all, but getting 7 or 8 done already feels like a win.<br>
+So for the future, I’m aiming big, I want to grow my leadership skills to eventually become a technical leader, maybe a CTO. So I’m looking for a place where I can learn from great engineers while building real impact.<br>
 Would love to be part of the core engineering team and a founder software engineer.
-
-Basic manners:
-How are you? > I’m doing well, thanks! Hope you’re doing great too. / All good, thanks!
-Do you know x? > Let me take a second to think about that. / I’m not sure, but I’d love to learn more about it.
-If you don’t understand a question during an interview > I’m sorry, could you please clarify or rephrase the question?
-It was great meeting you > Likewise! thanks a lot!
-Do you have any questions for us? > Yes actually.. Thanks for answering
+<br>
+Basic manners:<br>
+How are you? > I’m doing well, thanks! Hope you’re doing great too. / All good, thanks!<br>
+Do you know x? > Let me take a second to think about that. / I’m not sure, but I’d love to learn more about it.<br>
+If you don’t understand a question during an interview > I’m sorry, could you please clarify or rephrase the question?<br>
+It was great meeting you > Likewise! thanks a lot!<br>
+Do you have any questions for us? > Yes actually.. Thanks for answering<br>
 It was a pleasure meeting with you.
-Thanks again for your time
+Thanks again for your time<br>
 
-Just a quick heads-up, English isn’t my first language, but I’m actively working on improving it and will do my best to clearly express my thoughts.
-Another question, is it fine to take notes while doing this meeting if I wanted to remember something for later?
+Just a quick heads-up, English isn’t my first language, but I’m actively working on improving it and will do my best to clearly express my thoughts.<br>
+Another question, is it fine to take notes while doing this meeting if I wanted to remember something for later?<br>
 
-Salary Negotiation:
-Is the compensation aligned with a global market standard or localized based on geography?
-Do you offer equity as part of the overall package?
-Based on my current skills and long-term potential, I’m aiming for a total compensation in the range of $5,500 to $6,000 USD per month, with equity considered depending on the company’s stage and team structure.
+Salary Negotiation:<br>
+Is the compensation aligned with a global market standard or localized based on geography?<br>
+Do you offer equity as part of the overall package?<br>
+Based on my current skills and long-term potential, I’m aiming for a total compensation in the range of $5,500 to $6,000 USD per month, with equity considered depending on the company’s stage and team structure.<br>
 
 General Questions:
 1. Personal Introduction & Background
 
 Tell me about yourself
-> Sure. My name is Mohammad, I'm a software engineer, based in Lebanon, with a strong focus on backend development. Over the past few years, I’ve worked with both cross-functional and siloed teams to build and scale backend systems especially using technologies like Django and DRF.
+> Sure. Thank you for having me today! My name is Mohammad, I'm a software engineer, based in Lebanon, with a strong focus on backend development. Over the past few years, I’ve worked with both cross-functional and siloed teams to build and scale backend systems especially using technologies like Django and DRF.
 > TODO: Talk about me dedicating most of my free time maintaining my OSS.
 
 Tell me about your background
@@ -312,44 +304,46 @@ Tell me more about DAF / Code Memo
 
 ---
 
-Preparation Related to CambioML Position:
-Founding Lead Full Stack Engineer (Backend-Oriented)
-AE / Remote, $50K - $70K, 0.25% - 1.00%, 3+ years
+Preparation Related to CambioML Position:<br>
+Founding Lead Full Stack Engineer (Backend-Oriented)<br>
+AE / Remote, $50K - $70K, 0.25% - 1.00%, 3+ years<br>
 
 
-Skills Required:
-LLM
-data parsing
-cleaning
-AWS
-FastAPI
-Kubernetes
-Docker
-monolithic services
-AWS micro services
-serverless architecture
-React
-Next.js
-PyTorch for model training
-vllm for model serving
-software development life cycle
-coding standards
-code reviews
-source control management
-testing
-DSA and OOP
-microservices architecture
-LLM such as OpenAI or Anthropic
-leading technical projects
-mentoring engineers
-communication skills
-cross-functional teams
-DevOps
+Skills Required:<br>
+- LLM
+- data parsing
+- cleaning
+- AWS
+- FastAPI
+- Kubernetes
+- Docker
+- monolithic services
+- AWS micro services
+- serverless architecture
+- React
+- Next.js
+- PyTorch for model training
+- vllm for model serving
+- software development life cycle
+- coding standards
+- code reviews
+- source control management
+- testing
+- DSA and OOP
+- microservices architecture
+- LLM such as OpenAI or Anthropic
+- leading technical projects
+- mentoring engineers
+- communication skills
+- cross-functional teams
+- DevOps
 
 - Push limits — in code, speed, and ambition.
 - Wake and sleep thinking about code, systems, and product.
 - Tackle brutal problems at startup pace.
 - Own their work and deliver real impact—no red tape.
+
+<br>
 
 Section 1:
 1. Backend Development (Python, FastAPI, Microservices, AWS)
